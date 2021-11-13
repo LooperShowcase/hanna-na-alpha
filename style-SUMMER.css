@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(0, 183, 255);
+}
+
+h1 {
+  color: grey;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+  font-size: 65;
+}
+#par1 {
+  background-color: blue;
+}
+
+table,
+tr,
+th,
+td {
+  border: 3px solid rgba(0, 16, 243, 0.87);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  size: 50px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(59, 19, 110);
+  transition: 5s;
+  transform: scale(1.2);
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+#Tlogo:hover {
+  background-color: cornflowerblue;
+  transition: 5s;
+  transform: rotateZ(360deg);
+}
+#na {
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+}
